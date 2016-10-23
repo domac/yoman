@@ -32,9 +32,6 @@ $ ./yoman -datafile=/your/datafile/path -w 10000 -i 10 -timeout 500 -oids=1.3.6.
 
 ```sh
 
-默认方式:
-$ ./yoman -w 5000 -i 10 -timeout 10000 -oids=1.3.6.1.2.1.31.1.1.1.6,1.3.6.1.2.1.31.1.1.1.10 -rt 5
-
 自定义交换机数据本地文件:
 $ ./yoman -datafile=/your/datafile/path -w 5000 -i 10 -timeout 10000 -oids=1.3.6.1.2.1.31.1.1.1.6 -rt 5
 
